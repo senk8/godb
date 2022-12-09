@@ -1,0 +1,8 @@
+name: go-test-actions
+on: [push]
+jobs:
+  check-test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "this is test"
+
